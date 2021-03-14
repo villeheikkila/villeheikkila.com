@@ -8,15 +8,20 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "@stitches/react": "^0.1.0-canary.12",
+    "@stitches/react": "^0.1.0-canary.20",
+    "@svgr/webpack": "^5.5.0",
     "next": "latest",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-tsparticles": "^1.20.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.31",
-    "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.1",
+    "@types/node": "^14.14.34",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "babel-plugin-inline-react-svg": "^2.0.1",
     "typescript": "4.2"
   },
   "license": "MIT"
